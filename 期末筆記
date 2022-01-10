@@ -1,5 +1,4 @@
 正規表達法
-==========
 >.【點】點可代替所有可能的字元（字母、數字或符號）。EX：.GC → UGC、OGC、PGC、2GC或是nGC等...
 >?【問號】比對前一個字串或是不比對。EX：facebo?k → facebook、facebok
 >*【星號】比對前一個字串零次或是多次。EX：sky*blue → skblue(y出現0次)、skyblue(y出現1次)、skyyyblue(y出現多次)
@@ -11,5 +10,6 @@
 >()【括號】把想找的相關字詞放 入括號內，可依照 括號 裡的字元 排序找到可能的結果。EX：(sym) → sympathy、symbol、assym等
 >[]【中括號】任意比對字串內的每個項目。EX：product[DEFG] → productD、productE、productF、productG
 
-Grep
-======
+grep
+=====
+
