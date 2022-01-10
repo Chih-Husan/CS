@@ -1,10 +1,15 @@
-#期末筆記
 正規表達法
-===========
+==========
 >.【點】點可代替所有可能的字元（字母、數字或符號）。EX：.GC → UGC、OGC、PGC、2GC或是nGC等...
 >?【問號】比對前一個字串或是不比對。EX：facebo?k → facebook、facebok
 >*【星號】比對前一個字串零次或是多次。EX：sky*blue → skblue(y出現0次)、skyblue(y出現1次)、skyyyblue(y出現多次)
 >-【破折號】EX：product[A-K] → productA、productB、productC、productD...productK
 >+【加號】跟星號類似，差別在於至少要與前一個字比對一次或以上。EX：sky+blue → skyblue(y出現1次)、skyyyblue(y出現多次)
-|>【直線】或者。EX：想找到Facebook、Instagram、Wordpress、Google相關的文章，可以使用Facebook | Instagram | Wordpress | Google
+>|【直線】或者。EX：想找到Facebook、Instagram、Wordpress、Google相關的文章，可以使用Facebook | Instagram | Wordpress | Google
 >^【插入符號】和$【錢字符號】^插入符號是比對前開頭，$錢字符號則是比對結尾。EX：^eat → eat、eatenEX：eat$ → creat、peat、leat
+>\【反斜 線】將任何特殊字元，恢復成  一般字元。EX：transbiz\.com → transbiz.com
+>()【括號】把想找的相關字詞放 入括號內，可依照 括號 裡的字元 排序找到可能的結果。EX：(sym) → sympathy、symbol、assym等
+>[]【中括號】任意比對字串內的每個項目。EX：product[DEFG] → productD、productE、productF、productG
+
+Grep
+======
